@@ -1,8 +1,8 @@
 <template>
     <div>
-      <div  class="projects-list">
+      <div class="projects-list">
         <template v-for="project in projects">
-          <div 
+          <div
             :key="project.id"
               @click="showDetails(project)"
               class="project-item"
@@ -15,7 +15,6 @@
                 </div>
               </div>
           </div>
-
         </template>
       </div>
 
@@ -26,7 +25,6 @@
         :htmlContent="popupContent"
         :color="popupColor"
       />
-
     </div>
 </template>
 
@@ -34,7 +32,6 @@
 import Vue from "vue";
 import ProjectDetailsOverlay from "@/components/ProjectDetailsOverlay.vue";
 import ProjectData from "@/data/ProjectData.ts";
-
 
 export default Vue.extend({
   name: "ProjectsList",
@@ -63,7 +60,7 @@ export default Vue.extend({
       this.showPopup = true;
       window.scrollTo(0,0);
     },
-  }, 
+  },
 });
 </script>
 
