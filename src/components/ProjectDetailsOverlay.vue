@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
     <div v-if="visible">
-      <div class="overlay">
+      <div @click="$emit('close')" class="overlay">
       </div>
       <div class="dialog" :style="{ 'background-color': color }">
         <h1 class="dialog-title">{{ title }}</h1>
@@ -31,8 +31,8 @@ export default Vue.extend({
   methods: {
     getImage: function(url: string) {
       console.log("fetching image " + url);
-    }
-  }
+    },
+  },
 });
 </script>
 
