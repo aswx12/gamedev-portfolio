@@ -4,7 +4,7 @@ export default [
     new ProjectData("project-1", "Detached", "img/projects/Detached/mainMenu.png", 
     `
     <div class="paragraph">
-     <strong>Detached</strong> is two-player puzzle games where players control two robots, Deta & Ched, solving puzzles using their limbs. Players can detach/attach limbs, they can also throw them as well as share them with the other player. Players are also able to take control of their detached limbs and move them around. <br/>
+     <strong>Detached</strong> is two-player puzzle games where players control two robots, Deta & Ched, solving puzzles using their limbs. Players can detach/attach limbs, they can also throw them as well as share them with the other player. Players are able to switch between detached limbs and main body. Switching to dropped limbs allows player to take control of their detached limbs and move them around, while switching to main body allows them to pick up the detached limbs when they are withing pickup range. Certain interactions are only possible when the main body has the required limb(s). <br/>
      This was a project made by six game developer students and one music student.
     </div>
     <div class="paragraph center">
@@ -26,14 +26,31 @@ export default [
         </li>
         <li>Camera & Player movement.</li>
         <li>Enviromental design(placing furnitures)</li>
-        <li>UI for limb selections</li>
+        <li>UI: </li>
+        <ol>
+            <li>Limbs Selection </li>
+        </ol>
+        
         </ul>
     </div>
     <div class="paragraph center">
-        <img class="phone-screenshot" src="img/projects/Detached/poster.png" alt="Detached-poster" />
-        <figcaption> Poster</figcaption>
-        <img class="pc-screenshot" src="img/projects/Detached/levelSelection.png" alt="levelSelection-Sc" />
-        <figcaption> Level Selection</figcaption>
+        <div class="screenshots">
+            <div class="leftColl">
+                <img class="phone-screenshot" src="img/projects/Detached/poster.png" alt="Detached-poster" />
+                <figcaption >Game Poster</figcaption>
+                <img class="phone-screenshot" src="img/projects/Detached/onBodyUI.png" alt="Detached-bodyUI" />
+                <figcaption >On Body UI</figcaption>
+                <img class="phone-screenshot" src="img/projects/Detached/onGroundUI.png" alt="Detached-groundUI" />
+                <figcaption >On Ground UI</figcaption>
+            </div>
+            <div class="rightColl">
+                <img class="pc-screenshot" src="img/projects/Detached/levelSelection.png" alt="levelSelection-Sc" />
+                <figcaption> Level Selection</figcaption>
+                <img class="pc-screenshot" src="img/projects/Detached/mainMenu.png" alt="Detached-mainMenu" />
+                <figcaption >Main Menu</figcaption>
+            </div>
+        </div>
+        
     </div>
     `, "#23bd69", true,true),
     //-----------------------------------------------------------------------------------------------------------------------
