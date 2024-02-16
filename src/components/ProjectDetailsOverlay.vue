@@ -1,6 +1,6 @@
 <template>
   <transition name="fade">
-    <div v-if="visible">
+    <div class="over" v-if="visible">
       <div @click="$emit('close')" class="overlay">
       </div>
       <div class="dialog" :style="{ 'background-color': color }">

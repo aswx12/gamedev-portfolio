@@ -4,15 +4,15 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>Hoang Luu</strong>, a newly graduated university student.<br/> 
-        My education focuses on game development.      
+        I'm <strong>Hoang Luu</strong>, I gratuated in June 2023 from Malmö University with a Bachelor Degree in Game Development.<br/> 
+     
       </div>
 
       <div style="margin-top: 20px;">Throughout my education I've worked on some <router-link to="/game-projects">Game</router-link>, as well as some <router-link to="/other-projects">Other Project</router-link>.<br/>
         I also do a bit of pixelart for fun, say hello to Bob the Blob -->.
       </div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a game developer to gain more experience. You can reach me at <a href="mailto:hoangluu021600@gmail.com">hoangluu021600@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a developer to gain more experience. You can reach me at <a href="mailto:hoangluu021600@gmail.com">hoangluu021600@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">
