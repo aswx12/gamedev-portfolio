@@ -3,22 +3,35 @@ import ProjectData from '@/data/ProjectData.ts'
 export default [
     new ProjectData("project-6", "The Creator", "img/projects/project-6-icon.png", `
     <div class="paragraph">
-      <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
-      <br/>Image by <a href="https://www.pexels.com/fr-fr/@aldoalz" target="blank">Aldo Picaso</a>.
+      <strong>The Creator</strong> is a UI for the StS-modding API, allowing users to create cards without programming experience. 
             </div>
             <div class="paragraph center">
-              <a href="https://www.microsoft.com/en-us/p/some-app" target="_blank"><img src="img/projects/ms-store-logo.png" alt="MS Store button" /></a>
-          </div>
-
+              <a href="https://github.com/aswx12/MTS" target="_blank">Source Code<img src="img/projects/GitHub-Mark.png" alt="GitHub-link" /></a>
+            </div>
+            <div style="margin-top:20px; margin-bottom:20px;">
+              <a class="download-link" href="d/Thesis.pdf" download><i class="fa fa-download fa-lg fa-fw"></i> Download Thesis PDF 🇬🇧</a>
+              <div style="clear:both"></div>
+      </div>
           <div class="paragraph">
             Main features :
             <ul>
-            <li>Some stuff</li>
-            <li>Some great stuff</li>
-            <li>More awesome stuff</li>
-            <li>And then some</li>
+              <li>Creating your own custom card including (more details in the Thesis above, section 5.1):
+                <ol>
+                  <li>Card's name</li>
+                  <li>Card's type</li> 
+                  <li>Over 55 actions to choose from, some actions also have extra options(it is possible to add every action to a card)</li>
+                  <li>Choose to add or remove an action when you upgrade the card</li> 
+                  <li>Card's base cost and upgraded cost</li> 
+                  <li>Card's rarity</li> 
+                  <li>Target of the card</li> 
+                  <li>Card's description</li> 
+                  <li>Card's state</li> 
+                </ol>
+              </li>
+              <li>Data collection, collecting battle data of each turn. (more details in the Thesis above, section 5.2)</li>
+
             </ul>
-        </div>
+          </div>
 
         <div class="paragraph center">
           <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />

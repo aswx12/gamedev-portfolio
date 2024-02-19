@@ -35,11 +35,11 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/404.vue')
   },
    {
-    path: '/project/:id',
-    name: 'ProjectDetailsOverlay',
+    path: '/other-projects/:id',
+    name: 'Other Projects',
     component: () => import(/* webpackChunkName: "about" */ '../views/OtherProjects.vue'),
     props: true // Pass route params as props to component
-  },
+  }, 
   {
     path: '*',
     redirect: '/404'

@@ -1,15 +1,15 @@
 <template>
   <transition name="fade">
     <div class="over" v-if="visible">
-      <div @click="$emit('close')" class="overlay">
-      </div>
+      <router-link :to="$route"><div @click="$emit('close')"  class="overlay">
+      </div></router-link>
       <div class="dialog" :style="{ 'background-color': color }">
         <h1 class="dialog-title">{{ title }}</h1>
-        <div @click="$emit('close')" class="dialog-close"><i class="fa fa-times fa-lg fa-fw"></i></div>
+        <div @click="$emit('close')" class="dialog-close"><router-link :to="$route"><i class="fa fa-times fa-lg fa-fw"></i></router-link></div>
         <div class="dialog-content">
           <div v-html="htmlContent"></div>
           <div class="dialog-bottom">
-          <a @click="$emit('close')" class="dialog-close-button">Close</a>
+          <a @click="$emit('close')" class="dialog-close-button"><router-link :to="$route">Close</router-link></a>
         </div>
         </div>
       </div>
@@ -19,6 +19,7 @@
 
 <script lang="ts">
 import Vue from "vue";
+
 
 export default Vue.extend({
   name: "ProjectDetailsOverlay",

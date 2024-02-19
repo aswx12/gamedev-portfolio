@@ -82,11 +82,11 @@
       <h3>Malmö University 2020-2023</h3>
       <h4>Bachelor of Science(B.sc) in Game Development</h4>
       <div>Thesis: “Developing a Roguelike Deckbuilding Design Tool with Slay the Spire Modding API”<br>
-      <router-link to="/project/project-6">Click here for more details</router-link></div>
+      <router-link to="/other-projects/project-6" >Click here for more details</router-link></div>
 
 
-      <h2>Languages</h2>
-
+      <h2>Languages</h2> 
+ 
       <h3>Swedish</h3>
       <div>Proficient</div>
 
