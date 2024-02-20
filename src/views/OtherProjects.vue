@@ -18,7 +18,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script lang="ts">  
 import Vue from "vue";
 import ProjectsList from "@/components/ProjectsList.vue";
 import ProjectDetailsOverlay from "@/components/ProjectDetailsOverlay.vue";

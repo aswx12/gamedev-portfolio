@@ -1,13 +1,15 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-6", "The Creator", "img/projects/project-6-icon.png", `
+    new ProjectData("project-6", "The Creator", "img/projects/Creator/CreatorFullApp.png", `
     <div class="paragraph">
       <strong>The Creator</strong> is a UI for the StS-modding API, allowing users to create cards without programming experience. 
             </div>
-            <div class="paragraph center">
-              <a href="https://github.com/aswx12/MTS" target="_blank">Source Code<img src="img/projects/GitHub-Mark.png" alt="GitHub-link" /></a>
-            </div>
+              <div class="paragraph center">
+                <img class="main-screenshot" src="img/projects/Creator/CreatorFullApp.png/" alt="Full app screenshot" />
+                <br>
+                <a href="https://github.com/aswx12/MTS" target="_blank">Source Code<img src="img/projects/GitHub-Mark.png" alt="GitHub-link" /></a>
+              </div>
             <div style="margin-top:20px; margin-bottom:20px;">
               <a class="download-link" href="d/Thesis.pdf" download><i class="fa fa-download fa-lg fa-fw"></i> Download Thesis PDF 🇬🇧</a>
               <div style="clear:both"></div>
