@@ -3,7 +3,7 @@ import ProjectData from '@/data/ProjectData.ts'
 export default [
     new ProjectData("project-6", "The Creator", "img/projects/Creator/CreatorFullApp.png", `
     <div class="paragraph">
-      <strong>The Creator</strong> is a UI for the StS-modding API, allowing users to create cards without programming experience. 
+      <strong>The Creator</strong> is a UI for the StS-modding API, allowing users to create custom cards for the game without programming experience. The program was written in Java.
             </div>
               <div class="paragraph center">
                 <img class="main-screenshot" src="img/projects/Creator/CreatorFullApp.png/" alt="Full app screenshot" />
@@ -35,11 +35,22 @@ export default [
             </ul>
           </div>
 
-        <div class="paragraph center">
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
-        </div>
+          <div class="paragraph center">
+            <div class="screenshots">
+              <div class="leftColl">
+                <img class="pc-screenshot" src="img/projects/Creator/cardSC.png/" alt="portfolioCard" />
+                <figcaption >Custom Card</figcaption><br>
+                <img class="pc-screenshot" src="img/projects/Creator/dataCollection1.png/" alt="data collection 1" />
+                <figcaption >Data Collection: Player's & enemies' info</figcaption>
+              </div>
+              <div class="rightColl">
+                <img class="pc-screenshot" src="img/projects/Creator/dataCollection2.png/" alt="data collection 2" /> 
+                <figcaption >Data Collection: Turn's result</figcaption><br>
+                <img class="phone-screenshot" src="img/projects/Creator/dataCollection3.png/" alt="data collection 3" /> 
+                <figcaption>Data Collection: Battle Result</figcaption>
+              </div>
+            </div>
+          </div>
     `, "#c10606", false, true),
     new ProjectData("project-7", "Drew Blood", "img/projects/project-7-icon.png", `
     <div class="paragraph">
